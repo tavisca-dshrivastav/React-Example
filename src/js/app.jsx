@@ -18,7 +18,7 @@ class App extends React.Component{
         return <div className='main'>
                 <Header name = 'This is todo list'/>
                 <Container/>
-                <Footer name = '@Copyright Deepak Shrivastav'/>
+                <Footer name = '&copy;Copyright Deepak Shrivastav'/>
             </div>;
     }
 }
