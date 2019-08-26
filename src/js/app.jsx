@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom'
 import Header from './header/header.jsx'
 import Footer from './footer/footer.jsx'
+import Container from './container/container.jsx'
 
 // const rootElement = document.getElementById('content');
 
@@ -16,14 +17,11 @@ class App extends React.Component{
         // const content = 'Hello Everyone';
         return <div className='main'>
                 <Header name = 'This is todo list'/>
+                <Container/>
                 <Footer name = '@Copyright Deepak Shrivastav'/>
             </div>;
-
     }
 }
-
-
-
 
 ReactDOM.render(
     <App />,
