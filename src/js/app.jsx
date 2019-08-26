@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-
+import Header from './header/header.jsx'
+import Footer from './footer/footer.jsx'
 
 // const rootElement = document.getElementById('content');
 
@@ -12,12 +13,17 @@ import ReactDOM from 'react-dom'
 
 class App extends React.Component{
     render(){
-        const content = 'Hello Everyone';
+        // const content = 'Hello Everyone';
         return <div className='main'>
-                ${content}
+                <Header name = 'This is todo list'/>
+                <Footer name = '@Copyright Deepak Shrivastav'/>
             </div>;
+
     }
 }
+
+
+
 
 ReactDOM.render(
     <App />,
