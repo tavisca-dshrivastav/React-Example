@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: gray;
+    text-align: center;
+    padding: 12px;
+}
+
+.aside {
+    width: 20%;
+    height: 450px;
+    background: green;
+}
+
+.section {
+    width: 70%;
+}
+
+footer {
+    background: thistle;
+    width: 100%;
+    height: 50px;
+    padding: 2px;
+    display: fixed;
+    bottom: 0px;
+}
+
+.list-item li {
+    padding: 4px;
+    font-weight: bold;
+    color: azure;
+}
+
+ul {
+    list-style-type: none;
+    position: relative;
+    width: 100%;
+}
+
+li {
+    text-align: center;
+}
+
+li:hover {
+    cursor: pointer;
+    border: 2px solid gray;
+    opacity: 0.5;
+    background: lightblue;
+}
+
+li a {
+    text-decoration: none;
+    color: azure;
+}
+
+footer {
+    padding: 12px;
+    text-align: center;
+}
+
+.main-body {}
+
+input {
+    height: 40px;
+}
+
+input[type="button"] {
+    width: 50px;
+    background: green;
+}
+
+#user-content {
+    display: none;
+}
+
+#dept-content {
+    display: none;
+}
+
+table,
+td,
+th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+th {
+    font-weight: bold;
+}
+
+.todo-body {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.form {
+    /* position: relative; */
+    margin: 12px;
+}
+
+.table {
+    margin: 12px;
+    position: relative;
+}
+
+a {
+    margin: 2px;
+}
+
+.autopop {
+    width: 300px;
+    display: none;
+    z-index: 100000;
+    /* position: relative; */
+}
+
+.autopop {
+    background: white;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid gray;
+}
+
+.autopop li {
+    /* position: relative; */
+    /* left: 8px; */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.search-box {
+    z-index: 1;
+}
