@@ -23,7 +23,6 @@ class Navigation extends React.Component {
             allTab[i].style.display = 'none';
         }
         document.getElementById(tab + '-content').style.display = 'block';
-        console.log(this.props.toDoList);
     }
 }
 

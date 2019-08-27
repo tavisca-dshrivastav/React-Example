@@ -8,7 +8,7 @@ import User from './user/user.jsx'
 class Section extends React.Component {
     render() {          
            return <div className = 'section' >
-                    <TODO/>
+                    <TODO />
                     <Department/>
                     <User/>
                  </div>

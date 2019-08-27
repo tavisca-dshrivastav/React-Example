@@ -79,8 +79,6 @@ footer {
     text-align: center;
 }
 
-.main-body {}
-
 input {
     height: 40px;
 }
@@ -106,6 +104,10 @@ th {
     padding: 3px;
 }
 
+tbody {
+    overflow: hidden;
+}
+
 th {
     font-weight: bold;
 }
@@ -124,6 +126,8 @@ th {
 .table {
     margin: 12px;
     position: relative;
+    height: 12px;
+    overflow: hidden;
 }
 
 a {
@@ -155,4 +159,9 @@ a {
 
 .search-box {
     z-index: 1;
+}
+
+.main-body {
+    overflow-y: scroll;
+    height: 80vh;
 }
